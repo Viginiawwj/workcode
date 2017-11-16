@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    height:100%;
+}
+BODY {
+    SCROLLBAR-FACE-COLOR: #fcfcfc;
+    SCROLLBAR-HIGHLIGHT-COLOR: #6c6c90;
+    SCROLLBAR-SHADOW-COLOR: #fcfcfc;
+    SCROLLBAR-3DLIGHT-COLOR: #fcfcfc;
+    SCROLLBAR-ARROW-COLOR: #240024;
+    SCROLLBAR-TRACK-COLOR: #fcfcfc;
+    SCROLLBAR-DARKSHADOW-COLOR: #48486c;
+    SCROLLBAR-BASE-COLOR: #fcfcfc;
+    overflow-x:hidden;overflow-y:scroll;
+}
+#left{
+    width: 185px;
+    background: #364152;
+    height: 100%;
+}
+#left ul{
+    margin: 0;
+}
+li{
+    list-style: none;
+    line-height:40px;
+    color: #e3e4e1;
+    font-size: 14px;
+    cursor: pointer;
+}
+li a{
+    width: 100%;
+    height:40px;
+    background: url("../img/nav-line.png") no-repeat bottom;
+    display: inline-block;
+    position: relative;
+}
+#left li img{
+    position: absolute;
+    top:15px;
+    right: 25px;
+}
+.first span{
+    display: inline-block;
+    width: 160px;
+    height: 38px;
+    padding-left: 20px;
+}
+.secondnav{
+    display: none;
+}
+.first:hover span{
+    border-left:5px #00baed solid;
+    background:#323b4b;
+    color: #fff;
+}
+.active{
+    border-left:5px #00baed solid;
+    background:#323b4b;
+    color: #fff;
+}
+.secondnav li{
+    text-align: center;
+}
+.secondnav li:hover{
+    background: #3b4865;
+}
+.secliactive{
+    background: #3b4865;
+}
